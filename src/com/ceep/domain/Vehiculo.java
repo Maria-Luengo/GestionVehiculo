@@ -65,6 +65,7 @@ public class Vehiculo {
         sb.append("\n color: ").append(color);
         sb.append("\n tarifa: ").append(tarifa);
         sb.append("\n disponible: ").append(disponible);
+        sb.append(super.toString()); //esto me muestra la diercción de memoria
         System.out.println("");
         return sb.toString();
     }
