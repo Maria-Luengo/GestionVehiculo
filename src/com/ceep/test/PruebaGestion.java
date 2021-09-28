@@ -1,6 +1,7 @@
 
 package com.ceep.test;
 import com.ceep.domain.Vehiculo;
+//import com.ceep.domain.*; //esto me importaría todo, es el comidin
 
 public class PruebaGestion {
     
