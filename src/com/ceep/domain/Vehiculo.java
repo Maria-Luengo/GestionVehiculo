@@ -19,6 +19,10 @@ public class Vehiculo {
         this.disponible = disponible;
     }
 
+    public Vehiculo() {
+    }
+    
+
     //G&S
     public String getMatricula() {
         return matricula;
@@ -61,8 +65,11 @@ public class Vehiculo {
         sb.append("\n color: ").append(color);
         sb.append("\n tarifa: ").append(tarifa);
         sb.append("\n disponible: ").append(disponible);
+        System.out.println("");
         return sb.toString();
     }
+    
+    
     
     
 }
