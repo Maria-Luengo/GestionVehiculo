@@ -1,7 +1,7 @@
 
 package com.ceep.test;
 import com.ceep.domain.Vehiculo;
-//import com.ceep.domain.*; //esto me importaría todo, es el comidin
+//import com.ceep.domain.*; //* me importaría todo, es el comidin
 //Todas las clases son extens de la clase Object
 
 public class PruebaGestion {
